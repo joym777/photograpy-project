@@ -1,9 +1,9 @@
 body {
-  background-color:dimgray;
+  background-color: dimgray;
   color: white;
   font-family: 'Times New Roman', Times, serif;
 }
-header {
+header{
   background-image: url("./background image.png");
   padding: 60px 20px;
   box-shadow: 0 4px 15px (rgba(red 0, green 0, blue 0, alpha 0.6));
@@ -29,14 +29,14 @@ h3{
   padding: 10px;
   border-radius: 8px;
 }
-.links a:hover{
+.links a: hover{
   color: lightblue;
 }
 h2{
   text-align: center;
   text-decoration: underline;
 }
-ul {
+ul{
   list-style: none;
   padding: 0;
   display: flex;
@@ -44,7 +44,7 @@ ul {
   justify-content: center;
   margin: 40px 0;
 }
-ul li a {
+ul li a{
   display: block;
   width: 200px;
   height: 120px;
@@ -59,7 +59,7 @@ ul li a {
   background-position: center;
   transition: 1.5s;
 }
-ul li a:hover {
+ul li a: hover{
   transform: scale(1.0);
   box-shadow: 0 6px 18px rgba(0,0,0,0.8);
 }
