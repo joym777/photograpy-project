@@ -22,21 +22,21 @@ a{
   text-decoration: dotted;
   color: darkred;
 }
-.about-telescope a:hover{
+.about-telescope a: hover{
   color:azure ;
 }
-.images,.images-c {
-  display: inline-block;
+.images,.images-c{
+  display:inline-block;
   text-align: center;
-  margin: 1rem;
+  margin:1rem;
   justify-content: center;
 }
-.images img,.images-c img {
-  max-width: 300px;
+.images img,.images-c img{
+  max-width:300px;
   box-shadow:0 0 10px rgba(120, 177, 193, 0.7);
   transition:transform 0.3s ease;
 }
-.images-c h4,.images-c p {
+.images-c h4,.images-c p{
   margin:0.3rem 0;
   color:#dcdcdc;
 }
